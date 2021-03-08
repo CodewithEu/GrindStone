@@ -22,4 +22,10 @@
         android:name="com.example.grindstone.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_purchase"
+        android:name="com.example.grindstone.ui.purchase.PurchaseFragment"
+        android:label="Purchase"
+        tools:layout="@layout/fragment_purchase" />
 </navigation>
